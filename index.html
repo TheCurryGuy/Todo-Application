@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo Application</h1>
+        <input type="text" id = "todoinput" placeholder="  Enter Your Task here">
+        <button type="submit" id = "addtodo">Submit</button>
+        <div class = "btn">
+            <button class = "filterbtn" data-filter = "all">All</button>
+            <button class = "filterbtn" data-filter = "completed">Completed</button>
+            <button class = "filterbtn" data-filter = "pending">Pending</button>
+        </div>
+        <ul id = "todolist">
+            <!-- <li>Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
